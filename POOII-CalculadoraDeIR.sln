@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POOII-CalculadoraDeIR.Presentation", "POOII-CalculadoraDeIR.Presentation\POOII-CalculadoraDeIR.Presentation.csproj", "{8D84C297-7D60-415E-A89D-3ABD441D80F4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POOII-CalculadoraDeIR.Domain", "POOII-CalculadoraDeIR.Domain\POOII-CalculadoraDeIR.Domain.csproj", "{86FF31B1-A3EC-4571-9476-0A2C2C9BC738}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POOII-CalculadoraDeIR.Service", "POOII-CalculadoraDeIR.Service\POOII-CalculadoraDeIR.Service.csproj", "{3FF1A6E8-B584-472B-9E19-DA414416C7FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POOII--CalculadoraDeIR.Presentation", "POOII--CalculadoraDeIR.Presentation\POOII--CalculadoraDeIR.Presentation.csproj", "{EDD4FFCF-3015-4FD5-97EE-EF838B9C89DF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3FF1A6E8-B584-472B-9E19-DA414416C7FF} = {3FF1A6E8-B584-472B-9E19-DA414416C7FF}
+		{86FF31B1-A3EC-4571-9476-0A2C2C9BC738} = {86FF31B1-A3EC-4571-9476-0A2C2C9BC738}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8D84C297-7D60-415E-A89D-3ABD441D80F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D84C297-7D60-415E-A89D-3ABD441D80F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D84C297-7D60-415E-A89D-3ABD441D80F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D84C297-7D60-415E-A89D-3ABD441D80F4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{86FF31B1-A3EC-4571-9476-0A2C2C9BC738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{86FF31B1-A3EC-4571-9476-0A2C2C9BC738}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86FF31B1-A3EC-4571-9476-0A2C2C9BC738}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +27,10 @@ Global
 		{3FF1A6E8-B584-472B-9E19-DA414416C7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FF1A6E8-B584-472B-9E19-DA414416C7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FF1A6E8-B584-472B-9E19-DA414416C7FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDD4FFCF-3015-4FD5-97EE-EF838B9C89DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD4FFCF-3015-4FD5-97EE-EF838B9C89DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD4FFCF-3015-4FD5-97EE-EF838B9C89DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD4FFCF-3015-4FD5-97EE-EF838B9C89DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
